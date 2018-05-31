@@ -20,7 +20,7 @@ onPasswordChange = (event) => {
 }
 
 onSubmitSignIn = () => {
-  fetch('https://mysterious-cliffs-22424.herokuapp.com/signin',{
+  fetch('https://pupu-app.herokuapp.com/signin',{
     method:'post',
     headers:{'Content-Type':'application/json'},
     body:JSON.stringify({
